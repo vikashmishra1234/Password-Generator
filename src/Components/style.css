@@ -1,0 +1,74 @@
+.home{
+    width: 40vw;
+    margin: auto;
+    border: 1px solid;
+    margin-top: 20px;
+    color: blanchedalmond ;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 10px;
+    box-shadow: 2px 4px 13px #444242;
+    background-image: url('./background.jpg');
+    background-size: cover;
+    
+}
+.btns{
+    text-align: center;
+   
+}
+.btns button{
+    margin-right: 14px;
+    height: 32px;
+    width: 74px;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    background: #16c68b;
+    color: bisque;
+    font-size: 17px;
+}
+.btns input{
+    height: 30px;
+    text-align: center;
+    padding-left: 13px;
+    background: #10de99;
+    border: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.home h2{
+    margin: auto;
+    font-size: 28px;
+    color: blanchedalmond !important;}
+
+
+.btn{
+    text-align: center;
+}
+.btn button{
+    height: 40px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: none;
+    width: 50%;
+    font-size: 19px;
+    margin-bottom: 5px;
+    background-color: rgb(227, 59, 59);
+}
+
+
+@media screen and (max-width: 480px) {
+    .home{
+        width: 90vw;
+    }
+    #output{
+        font-size: 15px !important;
+    }
+    h2{
+        margin-bottom: 2px;
+    }
+}
